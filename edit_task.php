@@ -21,10 +21,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html>
 <head>
     <title>Edit Task</title>
+    <link href="et-style.css" rel="stylesheet">
 </head>
 <body>
     <h1>Edit Task</h1>
-    <form method="POST" action="">
+    <form class="form" method="POST" action="">
         <label>Title:</label><br>
         <input type="text" name="title" value="<?php echo $task['title']; ?>" required><br><br>
         <label>Description:</label><br>

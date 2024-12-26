@@ -21,11 +21,6 @@ label{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.598);
     
 }
-.button{
-    font-size: medium;
-    background-color: #a3b18a;
-    border-radius:5px 5px 5px 5px ;
-}
 .form{
     width: 35%;
     margin: 20px auto;
