@@ -1,0 +1,99 @@
+body{
+        margin: 0px;
+        padding: 0px;
+        background-color: #588157;
+        font-family:Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+}
+h1,h2{
+    text-align: center;
+    color: #dad7cd;
+}
+h1{
+    margin-bottom: 0%;
+}
+.task{
+    width: 20%;
+    margin: auto;
+}
+.contain{
+    width: 80%;
+        margin:20px auto;
+        padding: 20px;
+        background-color: #3a5a40;
+        border-radius: 5px 5px 5px 5px ;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.514);
+        
+}
+.button{
+        display: block;
+        font-size: medium;
+        background-color: #a3b18a;
+        border-radius:5px;
+        margin: 10px auto;
+        padding: 10px;
+        text-align: center;
+}
+.button2{
+    display: block;
+    font-size: medium;
+    background-color: #a3b18a;
+    border-radius:5px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.button:hover{
+    background-color: #588157;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+li{
+    display:flex;
+    flex-direction: column;
+    background-color: #a3b18a;
+    margin: 10px 0px;
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #ddd;
+    position: relative;
+}
+li strong{
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+.edit ,.delete{
+    background-color: #dad7cd;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    right: 5px; 
+    margin: 0px;   
+}
+.edit{
+    right: 80px;
+}
+.delete:hover{
+    background-color: #3a5a40;
+}
+.edit:hover{
+    background-color: #3a5a40;
+}
+a:hover{
+        color: wheat;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
